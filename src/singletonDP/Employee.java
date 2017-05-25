@@ -21,10 +21,6 @@ public class Employee {
 		return instance;
 	}
 
-	public void setName(String name) {
-		// TODO Auto-generated method stub
-		instance.name = name;
-	}
 
 	@Override
 	public String toString() {
