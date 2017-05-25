@@ -1,4 +1,8 @@
-package fci.dp.factory;
+package factoryDP;
+import abstractFactoryDP.AbstractFactory;
+import abstractFactoryDP.Student;
+import abstractFactoryDP.User;
+import abstractFactoryDP.UserType;
 
 
 //step 1 to create interface for common objects
@@ -9,14 +13,13 @@ package fci.dp.factory;
 public class FactoryPatternMain {
 
 	public static void main(String[] args) {
-
 		DeviceFactory deviceFactory = new DeviceFactory();
 		Device tv = deviceFactory.getDevice("tv");
 		Device computer = deviceFactory.getDevice("Computer");
-
 		tv.deviceType();
 		computer.deviceType();
-
+		
+				
 	}
 
 }

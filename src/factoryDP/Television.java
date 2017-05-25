@@ -1,4 +1,4 @@
-package fci.dp.factory;
+package factoryDP;
 
 public class Television implements Device {
 
